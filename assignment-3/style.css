@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+body {
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  font-family: 'Open Sans', sans-serif; /* Fallback font for the body */
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.page {
+  width: 1280px;
+  margin: 0px auto;
+  padding-top: 64px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Check margin */
+nav {
+  font-family: 'Mulish', sans-serif;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  width: 1040px;
+  font-size: 18px;
+}
+
+/* Check list styling */
+nav ul {
+  display: flex;
+  gap: 48px;
+  list-style-type: none; /* Remove the bullet points */
+}
+
+/* Check list link style */
+nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Default color (dark gray) for all menu items */
+  font-weight: 400; /* Default font-weight (normal) */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Make text bold on hover */
+nav ul li a:hover {
+  color: #4cb3c1; /* Hover effect on links */  
+  font-size: 1.2rem;
+}
+
+nav ul li:first-child a {
+  font-weight: 700; /* Make the first item (Home) bold */
+  color: #000; /* Make Home text black */
+}
+
+/* Make "About" and "Training" thin and gray */
+nav ul li:nth-child(2) a, nav ul li:nth-child(3) a {
+  font-weight: 300; /* Lighter font-weight for About and Training */
+  color: #777; /* Gray color for About and Training */
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8vh;
+  width: 1040px;
+}
+
+.text {
+  max-width: 50%; /* Limiting width of text for better alignment */
+}
+
+/* Check margin and font styling */
+.text h1 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 48px;
+  color: #000;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+/* Check font styling */
+.text h1 span {
+  color: #89c5cc; /* Highlight color */
+  font-weight: 700;
+}
+
+/* Check font styling */
+.text p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #84808d;
+  line-height: 1.8;
+  margin-top: 30px; /* Added margin for spacing */
+  font-weight: 400;
+}
+
+/* Check font styling and make sure the button is rounded */
+.text button {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #69b99d;
+  padding: 1rem 1.25rem; /* Made button larger */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2.75rem; /* Added margin to give space between text and button */
+  transition: background-color 0.3s ease;
+  width: 169px;
+  font-size: 16px;
+}
+
+/* Handle when user hover on the button */
+.text button:hover {
+  background-color: #128C7E; /* Change color on hover */
+}
+
+/* Check the text styling */
+footer {
+  font-family: 'Open Sans', sans-serif; 
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Check the text styling */
+footer a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#balls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 10
+}
+
