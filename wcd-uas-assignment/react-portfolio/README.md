@@ -43,7 +43,6 @@ wcd-uas-assignment/react-portfolio
 │   ├── index.css                 # CSS global untuk styling situs
 │   └── main.jsx                  # Titik masuk untuk aplikasi React
 ├── .gitignore                    # Menentukan file dan direktori yang harus diabaikan oleh Git
-├── dataTek.txt                   # File teks yang berisi informasi tambahan tentang proyek
 ├── eslint.config.js              # Konfigurasi ESLint untuk menjaga kualitas kode
 ├── index.html                    # Template HTML utama untuk situs web
 ├── package-lock.json             # Menjamin pemasangan dependensi yang konsisten di berbagai lingkungan
