@@ -1,8 +1,4 @@
-  Berikut adalah **README.md** yang lengkap sesuai dengan struktur dan instruksi yang telah kamu berikan untuk aplikasi **React** yang menggunakan **Chakra UI** dan **React Router**.
-
-  ---
-
-  # React Application with Chakra UI and React Router
+   # React Application with Chakra UI and React Router
 
   ## Deskripsi
 
